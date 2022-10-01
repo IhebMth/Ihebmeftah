@@ -260,4 +260,13 @@ max-width: 60%;
 {
     display: none;
 }
+    
+}
+
+@media (max-width:540px) {
+    .home-info p    {
+      
+     margin-bottom: 30px;   
+    font-size: 13px;
+    }
 }
