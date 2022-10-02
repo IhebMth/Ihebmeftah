@@ -124,7 +124,7 @@
     transition:  opacity 100ms ease;
 }
 
-.aside nav li  a.active  {
+.aside nav li  a:is(:link, :visited, :active).active  {
     opacity: 1;
     background: var(--skin-color);
     border-radius: 10px;
