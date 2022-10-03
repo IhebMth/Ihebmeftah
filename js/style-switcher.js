@@ -51,6 +51,14 @@ window.addEventListener("load", () => {
     }
 })
 
+    const navLinks = document.querySelector("nav").querySelectorAll("a")
+navLinks.forEach(link => {
+link.addEventListener("click", function () {
+    navLinks.forEach(nav=> nav.classList.remove("active"))
+    this.classList.add("active")
+})
+})
+
 /*
 // ======== active nav light ============
 const uls = document.querySelectorAll("nav ul");
@@ -89,11 +97,5 @@ links.forEach((link, index) =>
         });
     })
     
-    const navLinks = document.querySelector("nav").querySelectorAll("a")
-navLinks.forEach(link => {
-link.addEventListener("click", function () {
-    navLinks.forEach(nav=> nav.classList.remove("active"))
-    this.classList.add("active")
-})
-})
+
 */
