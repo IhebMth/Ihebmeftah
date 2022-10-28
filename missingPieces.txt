@@ -1,0 +1,9 @@
+******** TO DO
+home page ( phone media queri)
+white space = nowrap
+overflow = hidden
+text-overflow = elipsis
+
+
+contact page 
+sizing (phone media query ) 
