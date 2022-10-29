@@ -176,3 +176,17 @@ margin-top: 15px;
     padding-bottom: 80px;
     
 }
+
+@media (max-width: 567px)
+    {
+        .special-heading + p
+{
+    margin: -10px 0 0;
+    text-align: center;
+    font-size: 2.8vw;
+    color: var(--skin-color);
+    opacity: 0.3;
+    padding-bottom: 80px;
+    
+}
+}
